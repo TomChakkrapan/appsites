@@ -5,92 +5,20 @@
 <title>Untitled Document</title>
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
 <link href="hotel.css" rel="stylesheet" type="text/css">
-<!-- 
-To learn more about the conditional comments around the html tags at the top of the file:
-paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
-
-Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
-* insert the link to your js here
-* remove the link below to the html5shiv
-* add the "no-js" class to the html tags at the top
-* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
--->
-<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 <style>
-/*
-/*
- * HTML5 ✰ Boilerplate v3.0.2
- *
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- *
- * Detailed information about this CSS: h5bp.com/css
- * 
- * Dreamweaver modifications:
- * 1. Commented out selection highlight
- * 2. Removed media queries section (we add our own in a separate file)
- *
- * ==|== normalize ==========================================================
- */
-
-
-/* =============================================================================
-   HTML5 display definitions
-   ========================================================================== */
-
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
 [hidden] { display: none; }
-
-/* =============================================================================
-   Base
-   ========================================================================== */
-
-/*
- * 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
- * 2. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
- */
-
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-
 html, button, input, select, textarea { font-family: serif; color: #222; }
-
 body { margin: 0; font-size: 1em; line-height: 1.4; }
-
-/* 
- * Remove text-shadow in selection highlight: h5bp.com/i
- * These selection declarations have to be separate
- * Also: hot pink! (or customize the background color to match your design)
- */
-
-/* Dreamweaver: uncomment these if you do want to customize the selection highlight
- *::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
- *::selection { background: #fe57a1; color: #fff; text-shadow: none; }
- */
-
-/* =============================================================================
-   Links
-   ========================================================================== */
-
 a { color: #00e; }
 a:visited { color: #551a8b; }
 a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
-
-/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
 a:hover, a:active { outline: 0; }
-
-
-/* =============================================================================
-   Typography
-   ========================================================================== */
-
 abbr[title] { border-bottom: 1px dotted; }
-
 b, strong { font-weight: bold; }
 
 blockquote { margin: 1em 40px; }
@@ -319,20 +247,6 @@ img, object, embed, video {
 	width:100%;
 }
 
-/*
-	Dreamweaver Fluid Grid Properties
-	----------------------------------
-	dw-num-cols-mobile:		4;
-	dw-num-cols-tablet:		8;
-	dw-num-cols-desktop:	12;
-	dw-gutter-percentage:	25;
-	
-	Inspiration from "Responsive Web Design" by Ethan Marcotte 
-	http://www.alistapart.com/articles/responsive-web-design
-	
-	and Golden Grid System by Joni Korpi
-	http://goldengridsystem.com/
-*/
 
 .fluid {
 	clear: both;
@@ -386,8 +300,6 @@ margin-left: 0;
 display: none;
 }
 
-/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
-
 @media only screen and (min-width: 481px) {
 
 .gridContainer {
@@ -425,8 +337,6 @@ display: none;
 margin-left: 0;
 }
 }
-
-/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
 @media only screen and (min-width: 769px) {
 
@@ -629,7 +539,7 @@ display: none;
   <img class="mySlides" src="hotel1.jpg" style="max-width:100%" >
   <img class="mySlides" src="hotel2.jpg" style="max-width:100%" >
   <img class="mySlides" src="hotel3.jpg"  style="max-width:100%">
-  <h1 class="centered">GrandHotel</h1>
+  <h1 class="centered" src="index2.html">GrandHotel</h1>
   <style>
   .centered {
     position: absolute;
